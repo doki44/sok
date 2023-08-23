@@ -185,10 +185,14 @@ a{
         border-radius: 50%;
         border: none;
         outline: none;
-        background-color: #BF171D;
+        background-image: url(../images/red-o.svg);
+        background-color: transparent;
         outline: none;
         stroke-width: 2px;
         margin-right: 10px;
+    }
+    .slick-dots .slick-active button{
+        background-image: url(../images/red-c.svg);
     }
     &__img{
         background-image: url(../images/top-bg.png);
@@ -220,7 +224,7 @@ a{
 
 .about{
     padding: 60px 0;
-    &__inner{}
+    // &__inner{}
     &__text{
         margin-bottom: 20px;
         max-width: 750px;
@@ -302,9 +306,13 @@ a{
         border-radius: 50%;
         border: none;
         outline: none;
-        background-color: #002D83;
+        background-image: url(../images/blue-o.svg);
+        background-color: transparent;
         width: 10px;
         height: 10px;
+    }
+    .slick-dots .slick-active button{
+        background-image: url(../images/blue-c.svg);
     }
     &__slider{
         &-item{
@@ -406,6 +414,9 @@ a{
         &-list *{
             margin-bottom: 15px;
         }
+        &-link{
+            border-bottom: 1px solid #000;
+        }
         &-input{
             border: none;
             outline: none;
@@ -418,7 +429,10 @@ a{
         }
         &-soc{
             display: flex;
-            align-items: center;
+            align-items: center; 
+            a{
+                border-bottom: none;
+            }
         }
         &-soc .footer__menu-li{
             margin-right: 20px;

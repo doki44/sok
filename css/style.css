@@ -205,10 +205,14 @@ a {
   border-radius: 50%;
   border: none;
   outline: none;
-  background-color: #BF171D;
+  background-image: url(../images/red-o.svg);
+  background-color: transparent;
   outline: none;
   stroke-width: 2px;
   margin-right: 10px;
+}
+.slider .slick-dots .slick-active button {
+  background-image: url(../images/red-c.svg);
 }
 .slider__img {
   background-image: url(../images/top-bg.png);
@@ -318,9 +322,13 @@ a {
   border-radius: 50%;
   border: none;
   outline: none;
-  background-color: #002D83;
+  background-image: url(../images/blue-o.svg);
+  background-color: transparent;
   width: 10px;
   height: 10px;
+}
+.quote .slick-dots .slick-active button {
+  background-image: url(../images/blue-c.svg);
 }
 .quote__slider-item {
   position: relative;
@@ -421,6 +429,9 @@ a {
 .footer__menu-list * {
   margin-bottom: 15px;
 }
+.footer__menu-link {
+  border-bottom: 1px solid #000;
+}
 .footer__menu-input {
   border: none;
   outline: none;
@@ -434,6 +445,9 @@ a {
 .footer__menu-soc {
   display: flex;
   align-items: center;
+}
+.footer__menu-soc a {
+  border-bottom: none;
 }
 .footer__menu-soc .footer__menu-li {
   margin-right: 20px;
