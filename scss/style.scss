@@ -307,7 +307,18 @@ a{
         height: 10px;
     }
     &__slider{
-        &-item{}
+        &-item{
+            position: relative;
+        }
+        &-item::before{
+            position: absolute;
+            top: 15px;
+            left: 100px;
+            content: '';
+            width: 45px;
+            height: 35px;
+            background-image: url(../images/quotes.svg);
+        }
         &-text{
             background-color: #fff;
             padding: 40px;

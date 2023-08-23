@@ -322,6 +322,18 @@ a {
   width: 10px;
   height: 10px;
 }
+.quote__slider-item {
+  position: relative;
+}
+.quote__slider-item::before {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  content: "";
+  width: 45px;
+  height: 35px;
+  background-image: url(../images/quotes.svg);
+}
 .quote__slider-text {
   background-color: #fff;
   padding: 40px;
