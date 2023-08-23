@@ -1,0 +1,18 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#240;&#159;&#166;&#134; icon &#34;telegram&#34;">
+<path id="Vector" d="M17.5 35C27.165 35 35 27.165 35 17.5C35 7.83502 27.165 0 17.5 0C7.83502 0 0 7.83502 0 17.5C0 27.165 7.83502 35 17.5 35Z" fill="url(#paint0_linear_19_72)"/>
+<path id="Vector_2" d="M14.2917 25.5209C13.7248 25.5209 13.8211 25.3068 13.6256 24.767L11.9584 19.2801L24.7917 11.6667" fill="#C8DAEA"/>
+<path id="Vector_3" d="M14.2916 25.5208C14.7291 25.5208 14.9224 25.3207 15.1666 25.0833L17.5 22.8144L14.5894 21.0593" fill="#A9C9DD"/>
+<path id="Vector_4" d="M14.5891 21.0596L21.6416 26.2701C22.4464 26.7142 23.0272 26.4842 23.2277 25.5229L26.0984 11.995C26.3923 10.8166 25.6492 10.2822 24.8793 10.6317L8.02245 17.1316C6.87181 17.5932 6.87852 18.2351 7.81271 18.5212L12.1386 19.8713L22.1534 13.5531C22.6262 13.2664 23.0601 13.4205 22.7039 13.7366" fill="url(#paint1_linear_19_72)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_19_72" x1="373.352" y1="93.352" x2="233.352" y2="420" gradientUnits="userSpaceOnUse">
+<stop stop-color="#37AEE2"/>
+<stop offset="1" stop-color="#1E96C8"/>
+</linearGradient>
+<linearGradient id="paint1_linear_19_72" x1="208.001" y1="122.103" x2="251.819" y2="221.813" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EFF7FC"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>
