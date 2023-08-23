@@ -429,9 +429,6 @@ a {
 .footer__menu-list * {
   margin-bottom: 15px;
 }
-.footer__menu-link {
-  border-bottom: 1px solid #000;
-}
 .footer__menu-input {
   border: none;
   outline: none;
