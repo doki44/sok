@@ -448,12 +448,11 @@ a{
     }
 }
 
-
-
-
-
-
-
-
-
-
+.glass{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    background-color: #fff;
+    padding: 17px 20px;
+    border-radius: 0px 50% 50% 0px;
+}
